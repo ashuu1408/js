@@ -33,3 +33,24 @@ const myFunction = function(){ // function representation/syntax
 console.log("Hello World");
 }
 
+
+// ******************Memory*****************************
+
+// Stack memory (Used in all primitive type data), Heap memory (Non-Primitive type data)
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(anothername)
+console.log(myYoutubename)
+
+let userOne = {
+    email: "user@google.com",
+    upiid: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email)

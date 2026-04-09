@@ -33,7 +33,21 @@ console.log(negValue); */
 //console.log(2/2) division
 //console.log(2%2) modulus
 
-let strl1= "Hello"
-let strl2 = "Ashutosh"
+/*let strl1= "Hello"
+let strl2 = " Ashutosh"
 let strl3 = strl1 +  strl2
 console.log(strl3);
+console.log("1" + 2 + 2); // so here, if there is string defined in starting then whole output will be in string format
+
+console.log(1 + 2 + "2"); // and here we can see there is string defined at end so first it does the arithmetic operation then print the output
+*/
+/*console.log(+true); // output 1
+console.log(+"") // output 0 (but makes no sense in production)
+
+let num1, num2, num3
+
+num1=num2=num3= 2+2 
+*/
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter);
